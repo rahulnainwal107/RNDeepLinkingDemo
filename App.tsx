@@ -14,10 +14,11 @@ import {StyleSheet} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 
 import Initial from './src/navigations/Initial';
+import linking from './src/utils/linking';
 
 const App = () => {
   return (
-    <NavigationContainer>
+    <NavigationContainer linking={linking}>
       <Initial />
     </NavigationContainer>
   );
