@@ -11,8 +11,8 @@ const Stack = createNativeStackNavigator();
 const Initial = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="User" component={User} />
       <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="User" component={User} />
       <Stack.Screen name="Profile" component={Profile} />
       <Stack.Screen name="Notifications" component={Notifications} />
     </Stack.Navigator>
